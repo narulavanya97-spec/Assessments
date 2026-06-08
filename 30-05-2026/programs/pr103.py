@@ -1,0 +1,8 @@
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Unpack the list into variables
+first, *middle, last = numbers
+
+print(first)
+print(middle)
+print(last)
